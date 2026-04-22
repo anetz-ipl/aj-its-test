@@ -1,0 +1,93 @@
+{
+  "topic": "Division Beyond Known Facts",
+  "grade": 3,
+  "tutor_name": "Fiona",
+  "tools_enabled": ["base10_blocks", "number_line"],
+  "problems": [
+    {
+      "id": 1,
+      "dividend": 48,
+      "divisor": 3,
+      "answer": 16,
+      "word_problem": "Fiona has 48 monster stickers to share equally between 3 friends at the Academy.",
+      "hint": "What if you gave each of the 3 groups 10 first — how many would that use up, and how many would still need sharing?",
+      "tutor_responses": {
+        "correct": "That's exactly it — each group gets 16. You chunked that beautifully.",
+        "generic_wrong": "You've got the right idea starting with groups — can you think about how many tens each group could get first?",
+        "common_wrong": {
+          "12": "You're thinking in groups, which is great. If each group got 12, how much would that be altogether — does it get us to 48?",
+          "24": "24 would work perfectly if we had 2 groups. We've got 3 here — how does having one more group change things?",
+          "144": "Interesting — what operation do you think you used there? We're trying to split 48 into groups, not grow it."
+        }
+      }
+    },
+    {
+      "id": 2,
+      "dividend": 85,
+      "divisor": 5,
+      "answer": 17,
+      "word_problem": "Grogg collected 85 acorns and wants to divide them equally into 5 bags for the Academy picnic.",
+      "hint": "How many tens could you give each of the 5 groups to start — and what would be left over after that?",
+      "tutor_responses": {
+        "correct": "85 into 5 equal groups — 17 each. That chunking strategy really held up on a bigger number.",
+        "generic_wrong": "You're working through it, which is the right move. How many tens could you give each of the 5 groups to start?",
+        "common_wrong": {
+          "15": "You're really close — if each group got 15, what would 5 × 15 give us? Is there still some left to share?",
+          "25": "If each group got 25, what would 5 × 25 be — does that go over 85? What's a good number to try instead?",
+          "425": "That's a big number — what do you think happened there? Remember, we're splitting 85 into 5 groups, not combining them."
+        }
+      }
+    },
+    {
+      "id": 3,
+      "dividend": 72,
+      "divisor": 4,
+      "answer": 18,
+      "word_problem": "Winnie baked 72 cookies for the Academy bake sale and needs to pack them equally into 4 boxes.",
+      "hint": "If you gave each of the 4 groups 10 to start, how many would be used up — and how many would still need to be shared?",
+      "tutor_responses": {
+        "correct": "72 split into 4 equal groups — 18 in each. You're really getting the hang of this.",
+        "generic_wrong": "Good start. If you gave each of the 4 groups 10 first, how many would you have used up — and how many would be left?",
+        "common_wrong": {
+          "16": "You're so close — if each group got 16, what's 4 × 16? Is there still a little left over to share out?",
+          "20": "If each group got 20, what would 4 × 20 come to — does that go past 72? What could you try that's a little less?",
+          "288": "That's quite a jump — can you think about whether we're splitting or growing the number here?"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "dividend": 96,
+      "divisor": 6,
+      "answer": 16,
+      "word_problem": "Alex found 96 shiny gems in the Academy cave and wants to share them equally among 6 classmates.",
+      "hint": "Six groups is a lot — what if you started by giving each group 10? How much would that use, and how many gems would still need sharing?",
+      "tutor_responses": {
+        "correct": "96 into 6 groups, 16 each — you worked through that one really carefully.",
+        "generic_wrong": "Six groups is a lot to think about at once. What if you started by giving each group 10 — how much would that use up?",
+        "common_wrong": {
+          "14": "You're in the right neighbourhood — if each group got 14, what's 6 × 14? Is there still some left to divide?",
+          "12": "Nice try — if each group got 12, what would 6 × 12 give us? We have 96 to share, so is there more left?",
+          "576": "That number grew a lot — do you think we multiplied or divided there? What are we actually trying to do with 96?"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "dividend": 78,
+      "divisor": 3,
+      "answer": 26,
+      "word_problem": "Lizzie picked 78 flowers from the Academy garden to arrange equally into 3 vases for the classroom.",
+      "hint": "What if you gave each of the 3 groups 20 to start — how many would that use up, and how many flowers would still need to be shared?",
+      "tutor_responses": {
+        "correct": "78 into 3 groups — 26 each. You used that chunking strategy all the way through. That's yours now.",
+        "generic_wrong": "You're thinking about it the right way. How many tens could each of the 3 groups get — and what would be left after that?",
+        "common_wrong": {
+          "23": "You're close — if each group got 23, what's 3 × 23? Is there still a bit left that needs sharing?",
+          "36": "If each group got 36, what would 3 × 36 come to — does that go past 78? What's a number just under that might work?",
+          "234": "That's much bigger than 78 — what do you think happened? We're splitting 78 into 3 equal groups, so the answer should be smaller than 78."
+        }
+      }
+    }
+  ]
+}
