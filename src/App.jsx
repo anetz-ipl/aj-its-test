@@ -21,7 +21,7 @@ export default function App() {
   const [session, setSession] = useState(initialSession())
 
   useEffect(() => {
-    fetch('/content.json')
+    fetch(`${import.meta.env.BASE_URL}content.json`)
       .then(r => r.json())
       .then(setContent)
       .catch(err => console.error('Failed to load content.json', err))
